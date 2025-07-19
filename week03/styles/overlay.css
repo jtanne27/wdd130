@@ -6,14 +6,8 @@ body {
 	font-size: 18px;
 	font-family: "Nunito Sans", "Playfair Display", serif;
 	font-optical-sizing: auto;
-	color: #DCAA89
-#D6794D
-#30525C
-#4C848D
-#C35627
-#BFB9B5
-
-;}
+	color: primary-color#DCAA89;
+	background-color: #F5F5DC;} 
 
 main {
 	max-width: 800px;
