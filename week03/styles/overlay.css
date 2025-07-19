@@ -2,6 +2,18 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	font-size: 18px;
+	font-family: "Nunito Sans", "Playfair Display", serif;
+	font-optical-sizing: auto;
+	color: #DCAA89
+#D6794D
+#30525C
+#4C848D
+#C35627
+#BFB9B5
+
+;}
 
 main {
 	max-width: 800px;
@@ -53,3 +65,4 @@ footer {
 	font-weight: 700;
 	font-style: italic;
 }
+
