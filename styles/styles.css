@@ -2,7 +2,7 @@
 body {font-size: 12; font-family: "Delius";}
 nav {background-color: darkblue; padding: 10px;}
 nav a {color: white; display: block; padding: 20px; }
-h1 {color: darkblue;}
+h1 {color: darkblue; padding: .5rem}
 img {width: 150px; height: auto; border: 1px solid black; padding: 2px; box-shadow: 0 0 30px gray;}
 p {padding: 0px; }
 main {max-width: 840px;}
@@ -17,5 +17,7 @@ aside {width: 20rem;
     aside img { position: relative; width: 200px; height: auto;}
     aside h2 {position: absolute;} 
     main img {width: 150px ; height: auto; float: right; margin: 0 0 1rem 1rem; box-shadow: 0 0 30px gray;}
+    p {margin: 2rem;}
     footer {margin-top: 15px; border-top: 1px solid #000; text-align: center;}
     /* class selectors */ .box { margin: 1rem; border: 1px solid rgb(0 0 0 / 10%); padding: 1rem; background-color: #ddd; color: #000; } 
+    .indent {margin: 1.5rem;}
