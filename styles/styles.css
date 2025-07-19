@@ -20,4 +20,4 @@ aside {width: 20rem;
     p {margin: 2rem;}
     footer {margin-top: 15px; border-top: 1px solid #000; text-align: center;}
     /* class selectors */ .box { margin: 1rem; border: 1px solid rgb(0 0 0 / 10%); padding: 1rem; background-color: #ddd; color: #000; } 
-    .indent {margin: 1.5rem;}
+    .indent {padding-left: 1.5rem;}
