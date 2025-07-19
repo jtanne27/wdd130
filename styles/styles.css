@@ -1,5 +1,5 @@
 * universal-selector {margin: 0; padding: 0; box-sizing: border-box;}
-body {font-size: 12px; font-family: "Delius";}
+body {font-size: 18px; font-family: "Delius";}
 nav {background-color: darkblue; padding: 10px;}
 nav a {color: white; display: block; padding: 20px; }
 h1 {color: darkblue; padding: .5rem}
