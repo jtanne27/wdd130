@@ -15,7 +15,7 @@ aside {width: 20rem;
     text-align: center;
     position: relative;} 
     aside img { position: relative; width: 200px; height: auto;}
-    aside h2 {position: absolute;} 
+    aside h2 {position: absolute; top: 40px; right: 10px;} 
     main img {width: 150px ; height: auto; float: right; margin: 0 0 1rem 1rem; box-shadow: 0 0 30px gray;}
     p {margin: 2rem 2rem 5rem 2rem;}
     footer {margin-top: 15px; border-top: 1px solid #000; text-align: center;}
