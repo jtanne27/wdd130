@@ -16,9 +16,9 @@ aside {width: 20rem;
     text-align: center;
     position: relative;} 
     aside img { position: relative; width: 200px; height: auto;}
-    aside h2 {position: absolute; top: 2px; left: 78px ; z-index: 5;} 
+    aside h2 {position: absolute; top: 2px; left: 78px ; z-index: 5; font-size: 17px;} 
     main img {width: 150px ; height: auto; float: right; margin: 0 0 1rem 1rem; box-shadow: 0 0 30px gray;}
     p {margin: 2rem 2rem 5rem 2rem;}
     footer {margin-top: 15px; border-top: 1px solid #000; text-align: center;}
     /* class selectors */ .box { margin: 1rem; border: 1px solid rgb(0 0 0 / 10%); padding: 1rem; background-color: #ddd; color: #000; } 
-    .indent {padding-left: 1.5rem;}
+    .indent {padding-left: 1.5rem;} 
