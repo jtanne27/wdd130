@@ -1,4 +1,5 @@
 * universal-selector {margin: 0; padding: 0; box-sizing: border-box;}
+body {font-size: 12; font-family: "Delius";}
 nav {background-color: darkblue; padding: 10px;}
 nav a {color: white; display: block; padding: 20px; }
 h1 {color: darkblue;}
@@ -11,9 +12,10 @@ aside {width: 20rem;
     padding: 1rem; 
     background-color: #eee; 
     color: #333; 
-    text-align: center;} 
+    text-align: center;
+    position: relative;} 
     aside img { position: relative; width: 200px; height: auto;}
-    aside h2 {position: absolute; top: 47px; left: 150px;} 
-    main img {width: 150px ; height: auto; float: right; margin: 0 0 10px 10px; box-shadow: 0 0 30px gray;}
+    aside h2 {position: absolute;} 
+    main img {width: 150px ; height: auto; float: right; margin: 0 0 1rem 1rem; box-shadow: 0 0 30px gray;}
     footer {margin-top: 15px; border-top: 1px solid #000; text-align: center;}
     /* class selectors */ .box { margin: 1rem; border: 1px solid rgb(0 0 0 / 10%); padding: 1rem; background-color: #ddd; color: #000; } 
