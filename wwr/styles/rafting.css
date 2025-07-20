@@ -4,10 +4,10 @@
     --accent1-color : #30525C; 
     --accent2-color : #4C848D;
     --accent3-color: #C35627;
-    --accent4-color: #bfb9b5
-     --font-family: 'Roboto', serif;
-    --heading-font: 'Roboto', serif;
-    --body-font: 'Roboto', serif;
+    --accent4-color: #bfb9b5;
+    --font-family: "Roboto", serif;
+    --heading-font: "Roboto", serif;
+    --body-font: "Roboto", serif; 
     --base-font-size: 16px;}
 header { background-color: var(--primary-color);
 color: var(--accent2-color)}
