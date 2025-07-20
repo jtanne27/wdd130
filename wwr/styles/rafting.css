@@ -1,5 +1,4 @@
-
-
+ 
 :root { --primary-color: #DCAA89; 
     --secondary-color:#D6794D; 
     --accent1-color : #30525C; 
@@ -10,5 +9,5 @@
     --heading-font: 'Roboto', serif;
     --body-font: 'Roboto', serif;
     --base-font-size: 16px;}
-
-}
+header { background-color: var(--primary-color);
+color: var(--accent2-color);}
