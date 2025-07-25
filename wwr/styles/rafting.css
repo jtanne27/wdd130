@@ -9,12 +9,11 @@
     --heading-font: "Roboto", serif;
     --body-font: "Roboto", serif; 
     --base-font-size: 16px;}
-header {display: grid; grid-template-columns: 1fr auto; 
-    align-items: center; padding: 1rem; background-color: var(--primary-color); color: #fff; 
-    max-width: 100%; position: relative;}
+header { display: grid; grid-template-columns: 1fr 1fr; align-items: center; padding: 1rem; background-color: var(--primary-color); color: #fff; 
+    max-width: 100%;}
 header img { display: flex; width: 150px; height: auto; border: 1px solid black; padding: 2px; box-shadow: 0 0 30px gray;}
-nav {background-color: var(--primary-color); padding: 1rem; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
-nav a {display: flex; padding: 0.5rem; text-decoration: none; font-size: 1.2rem; font-weight: 700; color: #fff;} 
+nav {background-color: var(--primary-color); padding: 3rem; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
+nav a {display: flex; flex-wrap: wrap;  text-decoration: none; font-size: 1.2rem; font-weight: 700; color: #fff;} 
 
 .hero {position: relative;}
 .hero img { width: 100%; height: auto; display: block;} 
