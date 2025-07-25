@@ -14,5 +14,9 @@ header { display: grid; grid-template-columns: 1fr 1fr; align-items: center; pad
 header img { display: flex; width: 150px; height: auto; border: 1px solid black; padding: 2px; box-shadow: 0 0 30px gray;}
 nav {background-color: var(--primary-color); display: flex; flex-wrap: wrap; list-style: none; justify-content: space-around; align-items: center; gap: 1rem; padding: 0.5rem; }
 nav a {display: block; flex-wrap: wrap;  text-decoration: none; font-size: 1.2rem; font-weight: 700; color: #ffffff; list-style: none;} 
-h1 { position: absolute; width: 100%; justify-content: space-around; text-align: center; opacity: 0.7; background-color: var(--accent1-color); color: #fff;}
-.flex-container { background-color: --accent1-color; display: flex; flex-direction: row; align-items: center; max-width: auto; margin: 0 auto; padding: 1rem;}
+h1 { position: absolute; width: 100%; justify-content: space-around; text-align: center; opacity: 0.7; background-color: var(--accent2-color); color: #fff;}
+.flex-container {  display: flex; flex-direction: row; align-items: center; max-width: auto;  margin: 0 auto; padding: 1rem; justify-content: center; color: black;}
+.flex-item2 { flex: 1; padding: 1rem; text-align: center; }
+.flex-item2 img { width: 100%; max-width: 400px; height: auto; border: 1px solid black; padding: 2px; box-shadow: 0 0 30px gray; }
+.flex-item1 { flex: 1; padding: 1rem; text-align: left; font-size: 1.1rem; line-height: 1.6; color: var(--accent4-color); }
+
