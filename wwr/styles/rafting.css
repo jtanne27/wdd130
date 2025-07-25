@@ -14,9 +14,5 @@ header { display: grid; grid-template-columns: 1fr 1fr; align-items: center; pad
 header img { display: flex; width: 150px; height: auto; border: 1px solid black; padding: 2px; box-shadow: 0 0 30px gray;}
 nav {background-color: var(--primary-color); display: flex; flex-wrap: wrap; list-style: none; justify-content: space-around; align-items: center; gap: 1rem; padding: 0.5rem; }
 nav a {display: block; flex-wrap: wrap;  text-decoration: none; font-size: 1.2rem; font-weight: 700; color: #ffffff; list-style: none;} 
-h1 { position: absolute; top: 20px; width: 100%; justify-content: space-around; text-align: center; opacity: 0.7; background-color: var(--accent1-color); color: #fff;}
-
-.hero, content {position: relative;display: grid; grid-template-rows: 1; grid-template-columns: 50% 50%;}
-.hero img, content { position: relative;width: 500px; height: 500; display: grid; float: center; grid-template-columns: 50% 50%; grid-row: 1} 
-.hero article img { width: 125px; grid-row: 1; float: center; margin: 0 0 1rem 1rem; box-shadow: 0 0 30px gray; border: 1px solid black; padding: 2px;} 
+h1 { position: absolute; width: 100%; justify-content: space-around; text-align: center; opacity: 0.7; background-color: var(--accent1-color); color: #fff;}
 
