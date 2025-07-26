@@ -132,13 +132,13 @@ nav a:hover { text-decoration: underline; background-color: var(--accent2-color)
 .gallery {
   padding: 2em;
   text-align: center;
-  background-color: var(--accent2-color);
+  background-color: var(--accent3-color);
     
 }
 
 .gallery h2 {
   font-family: var(--heading-font);
-  color: var(--accent1-color);
+  color: var(--accent4-color);
   margin-bottom: 1.5em;
   text-align: center; 
   font-size: 2rem;
@@ -166,8 +166,8 @@ nav a:hover { text-decoration: underline; background-color: var(--accent2-color)
 
 .gallery-grid figcaption {
   margin-top: 0.5em;
-  font-size: 0.9em;
-  color: var(--accent1-color);
+  font-size: 1.3rem;
+  color: var(--accent4-color);
 }
 
 /* Footer */
