@@ -41,23 +41,27 @@ nav a:hover { text-decoration: underline; background-color: var(--accent2-color)
 
 /* Hero Section */
 .hero {padding: 2rem; text-align: center; 
-        background-color: #30525C;}
+        background-color: #30525C;
+       }
 
 .hero h1 { color: #fff; font-size: 2.5rem; 
             margin-bottom: 1rem; 
-            font-family: var(--heading-font); }
+            font-family: var(--heading-font); 
+            }
 
 .hero-content { max-width: 800px;
                  margin: 0 auto; color: #fff; 
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
-                gap: 1.5rem; }
+                gap: 1.5rem; 
+                }
 
 .hero-content p { margin-bottom: 1rem; 
                     font-size: 1.2rem;
                     line-height: 1.8; 
-                max-width: 500px;}
+                max-width: 500px;
+                }
 
   /* History Section */
 .history {
@@ -135,11 +139,14 @@ footer {
 
 .social-icons {
   margin-top: 1em;
+    display: flex;
 }
 
 .social-icons a img {
   width: 24px;
   margin: 0 0.5em;
-  vertical-align: middle;
+  display: flex;
+  
+
 }              
 
