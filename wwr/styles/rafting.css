@@ -1,5 +1,6 @@
  
-:root { --primary-color: #db7f41; 
+:root { 
+    --primary-color: #db7f41; 
     --secondary-color:#D6794D; 
     --accent1-color: #30525C; 
     --accent2-color: #4C848D;
@@ -8,11 +9,12 @@
     --font-family: "Roboto", serif;
     --heading-font: "Roboto", serif;
     --body-font: "Roboto", serif; 
-    --base-font-size: 16px;}
-header { display:  grid; grid-template-columns: 1fr 1fr; align-items: center; padding: 3rem; background-color: var(--primary-color); color: #fff; 
-    width: auto;}
+    --base-font-size: 16px;
+}
+header { display:  grid; grid-template-columns: 1fr 1fr; align-items: center; padding: 3rem; background-color: var(--primary-color); color: #fff; }
+nav {background-color: var(--primary-color); display: flex; flex-wrap: wrap; list-style: none; justify-content: space-around; align-items: center; gap: 1rem; padding: 0.5rem; width: auto; }
 header img { display: flex; width: 150px; height: auto; border: 1px solid black; padding: 2px; box-shadow: 0 0 30px gray;}
-nav {background-color: var(--primary-color); display: flex; flex-wrap: wrap; list-style: none; justify-content: space-around; align-items: center; gap: 1rem; padding: 0.5rem; display-width: auto; }
+nav {background-color: var(--primary-color); display: flex; flex-wrap: wrap; list-style: none; justify-content: space-around; align-items: center; gap: 1rem; padding: 0.5rem; width: auto; }
 nav a {display: block; flex-wrap: wrap;  text-decoration: none; font-size: 1.2rem; font-weight: 700; color: #ffffff; list-style: none;} 
 h1 { position: absolute; width: 100%; justify-content: space-around; text-align: center; opacity: 0.7; background-color: var(--accent2-color); color: #fff;}
 .flex-container {  display: flex; flex-direction: row; align-items: center; max-width: auto;  margin: 0 auto; padding: 1rem; justify-content: center; color: black;}
