@@ -89,27 +89,39 @@ nav a:hover { text-decoration: underline; background-color: var(--accent2-color)
   background-color: #f9f9f9;
   padding: 2em;
   text-align: center;
-}
+  }
 
 .history h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
   margin-bottom: 1em;
-}
+  max-width: 100%;}
 
 .history-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
   align-items: center;
   gap: 2em;
+    max-width: 900px ;
+    margin: 0 auto;
+    text-align: left;
+ 
+}
+.history-content p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
 .history-content img {
-  width: 150px;
+  width: 100%;
+  max-width: 180px;
   height: auto;
   border-radius: 8px;
   background-color: var(--accent2-color);
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    display: block;
+    margin: 0 auto;
 }
 
 /* Gallery Section */
