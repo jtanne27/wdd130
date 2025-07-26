@@ -86,14 +86,14 @@ nav a:hover { text-decoration: underline; background-color: var(--accent2-color)
 
   /* History Section */
 .history {
-  background-color: #f9f9f9;
+  background-color: var(--accent2-color);
   padding: 2em;
   text-align: center;
   }
 
 .history h2 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
+  color: var(darker(--accent1-color, #203030));
   margin-bottom: 1em;
   max-width: 100%;}
 
@@ -105,12 +105,16 @@ nav a:hover { text-decoration: underline; background-color: var(--accent2-color)
     max-width: 900px ;
     margin: 0 auto;
     text-align: left;
+    line-height: 1.6;
  
 }
 .history-content p {
   margin: 0;
   font-size: 1.1rem;
   line-height: 1.7;
+    color: var(--accent4-color);
+    word-spacing: normal;
+    line-height: 1.6;
 }
 
 .history-content img {
@@ -128,13 +132,17 @@ nav a:hover { text-decoration: underline; background-color: var(--accent2-color)
 .gallery {
   padding: 2em;
   text-align: center;
-  background-color: #fff;
+  background-color: var(--secondary-color);
+    
 }
 
 .gallery h2 {
   font-family: var(--heading-font);
-  color: var(--accent2-color);
+  color: var(--secondary-color);
   margin-bottom: 1.5em;
+  text-align: center; 
+    font-size: 1rem;
+    width: 100%; 
 }
 
 .gallery-grid {
@@ -163,7 +171,7 @@ nav a:hover { text-decoration: underline; background-color: var(--accent2-color)
 
 /* Footer */
 footer {
-  background-color: var(--accent4-color);
+  background-color: var(--primary-color);
   text-align: center;
   padding: 1.5em;
   font-size: 0.9em;
