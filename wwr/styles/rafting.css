@@ -138,12 +138,12 @@ nav a:hover { text-decoration: underline; background-color: var(--accent2-color)
 
 .gallery h2 {
   font-family: var(--heading-font);
-    color: var(--accent2-color);
+  color: var(--accent1-color);
   margin-bottom: 1.5em;
   text-align: center; 
-    font-size: 2rem;
-    width: 100%; 
-    font-weight: bold;
+  font-size: 2rem;
+  width: 100%; 
+  font-weight: bold;
 }
 
 .gallery-grid {
@@ -191,4 +191,3 @@ footer {
   
 
 }              
-
