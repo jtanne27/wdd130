@@ -51,4 +51,32 @@ label, input, select, textarea {
     margin-bottom: 1rem;
     font-size: 1rem;
 }
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-align: right;
+    padding: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Playfair Display', serif;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button {
+    background: #5db1e4;
+    color: black;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
 
