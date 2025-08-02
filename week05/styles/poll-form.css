@@ -28,7 +28,27 @@ form {
     padding: 1rem;
     border-radius: 5px;
     max-width: 600px;
-    margin: auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    display: grid;
+}
+fieldset {
+   display: grid;
+   grid-gap: auto;
+   margin: 1rem; 
+   border: 1px solid #ccc;
+   padding: 2rem;
+}
+legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    
+} 
+label, input, select, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1rem;
 }
 
