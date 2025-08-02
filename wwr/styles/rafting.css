@@ -197,4 +197,35 @@ footer p {
   color: var(--accent1-color);}
 
 
-            
+           .contact-info, .employee-profiles, .contact-form {
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.employee-profiles figure {
+  display: inline-block;
+  margin: 1rem;
+  text-align: center;
+}
+
+.contact-form input, 
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.contact-form button {
+  background-color: #0077cc;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #005fa3;
+}
+ 
